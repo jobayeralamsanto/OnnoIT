@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./custom-style.css" />
+    <link rel="stylesheet" href="./assets/css/custom-style.css" />
+    <link rel="stylesheet" href="./assets/plugin/owl-carousel/owl-carousel.css" />
+    <link rel="stylesheet" href="./assets/plugin/owl-carousel/owl.theme.default.min.css" />
+    <title>Onno IT</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="bg-[#0e0c18]">
@@ -35,6 +38,12 @@
 
                   <!-- Dropdown -->
                   <div class="absolute left-0 mt-2 w-40 bg-white text-black shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-3 group-hover:translate-y-0 transition-all duration-300 ease-out p-2">
+                    <div class="d-flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-short">
+                        <path d="M12 19V5"></path>
+                        <path d="M5 12l7-7 7 7"></path>
+                      </svg>
+                    </div>
                     <a href="#" class="block px-4 py-2 rounded hover:bg-gray-100">Web Design</a>
                     <a href="#" class="block px-4 py-2 rounded hover:bg-gray-100">SEO</a>
                     <a href="#" class="block px-4 py-2 rounded hover:bg-gray-100">Marketing</a>
@@ -57,13 +66,11 @@
                 </li>
               </ul>
             </nav>
-
             <!-- Contact Button -->
             <div class="flex items-center gap-2">
               <a href="#">
                 <div class="btn primary-gradient btn-shadow flex h-11 items-center gap-3 rounded-full p-4 md:h-[52px] md:p-6 cursor-pointer">Contact</div>
               </a>
-
               <!-- Mobile Menu Button -->
               <button id="menuBtn" class="rounded-xl border border-[#333] p-2.5 lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu">
@@ -75,7 +82,6 @@
             </div>
           </div>
         </div>
-
         <!-- Mobile Menu -->
         <div id="mobileMenu" class="fixed top-0 left-0 w-full h-screen bg-[#1b1b1c]/95 text-white z-[60] translate-y-[-100%] transition-all duration-500 ease-in-out p-6 flex flex-col gap-6">
           <!-- Close Button -->
@@ -118,7 +124,7 @@
                 </h1>
                 <p class="text-white font-medium text-center mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed aspernatur laboriosam necessitatibus dolores quibusdam maxime culpa. Commodi repellat aliquid, asperiores ipsum voluptatum ullam, magnam aut facilis impedit facere nulla?</p>
               </div>
-              <img class="mx-auto mt-6" src="./assets/hero-feature-img01.webp" alt="" />
+              <img class="mx-auto mt-6" src="./assets/img/hero-feature-img01.webp" alt="" />
             </div>
           </div>
         </section>
@@ -135,13 +141,13 @@
               <div class="btn primary-gradient btn-shadow inline-flex rounded-full py-3 px-8 text-lg font-medium cursor-pointer">Contact Us</div>
             </div>
             <div class="w-full lg:w-6/12 px-4 lg:px-8">
-              <img src="./assets/who-we-are-thumb.webp" alt="" />
+              <img src="./assets/img/who-we-are-thumb.webp" alt="" />
             </div>
           </div>
         </div>
         <div aria-hidden="true" class="relative -z-10 mt-[-290px] max-h-screen min-h-[350px] overflow-hidden md:mt-[-270px]">
-          <img alt="globe shape back" loading="lazy" class="md:scale-x-150" src="./assets/globe-shape-back-2.c3181d7c.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent; opacity: 0.4" />
-          <!-- <img alt="globe shape front" loading="lazy" class="md:scale-x-150" src="./assets/globe-shape-front-2.a5dd1356.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent" /> -->
+          <img alt="globe shape back" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-back-2.c3181d7c.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent; opacity: 0.4" />
+          <!-- <img alt="globe shape front" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-front-2.a5dd1356.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent" /> -->
         </div>
       </section>
 
@@ -154,7 +160,7 @@
           <div class="flex flex-wrap items-center mx-[-16px]">
             <div class="w-full lg:w-6/12 xl:w-4/12 px-3 py-3">
               <div class="rounded-2xl border border-[#303233] bg-[#111213] p-3">
-                <img class="mb-4" src="./assets/1-1.webp" alt="" />
+                <img class="mb-4" src="./assets/img/1-1.webp" alt="" />
                 <div class="px-3">
                   <h3 class="font-bold text-white text-2xl mb-2">E-commerce Solution</h3>
                   <ul class="text-white mb-3">
@@ -171,7 +177,7 @@
             </div>
             <div class="w-full lg:w-6/12 xl:w-4/12 px-3 py-3">
               <div class="rounded-2xl border border-[#303233] bg-[#111213] p-3">
-                <img class="mb-4" src="./assets/2-1.webp" alt="" />
+                <img class="mb-4" src="./assets/img/2-1.webp" alt="" />
                 <div class="px-3">
                   <h3 class="font-bold text-white text-2xl mb-2">Billing Software</h3>
                   <ul class="text-white mb-3">
@@ -188,7 +194,7 @@
             </div>
             <div class="w-full lg:w-6/12 xl:w-4/12 px-3 py-3">
               <div class="rounded-2xl border border-[#303233] bg-[#111213] p-3">
-                <img class="mb-4" src="./assets/6-1.webp" alt="" />
+                <img class="mb-4" src="./assets/img/6-1.webp" alt="" />
                 <div class="px-3">
                   <h3 class="font-bold text-white text-2xl mb-2">E-commerce Solution</h3>
                   <ul class="text-white mb-3">
@@ -205,7 +211,7 @@
             </div>
             <div class="w-full lg:w-6/12 xl:w-4/12 px-3 py-3">
               <div class="rounded-2xl border border-[#303233] bg-[#111213] p-3">
-                <img class="mb-4" src="./assets/1-1.webp" alt="" />
+                <img class="mb-4" src="./assets/img/1-1.webp" alt="" />
                 <div class="px-3">
                   <h3 class="font-bold text-white text-2xl mb-2">E-commerce Solution</h3>
                   <ul class="text-white mb-3">
@@ -222,7 +228,7 @@
             </div>
             <div class="w-full lg:w-6/12 xl:w-4/12 px-3 py-3">
               <div class="rounded-2xl border border-[#303233] bg-[#111213] p-3">
-                <img class="mb-4" src="./assets/2-1.webp" alt="" />
+                <img class="mb-4" src="./assets/img/2-1.webp" alt="" />
                 <div class="px-3">
                   <h3 class="font-bold text-white text-2xl mb-2">Billing Software</h3>
                   <ul class="text-white mb-3">
@@ -239,7 +245,7 @@
             </div>
             <div class="w-full lg:w-6/12 xl:w-4/12 px-3 py-3">
               <div class="rounded-2xl border border-[#303233] bg-[#111213] p-3">
-                <img class="mb-4" src="./assets/6-1.webp" alt="" />
+                <img class="mb-4" src="./assets/img/6-1.webp" alt="" />
                 <div class="px-3">
                   <h3 class="font-bold text-white text-2xl mb-2">E-commerce Solution</h3>
                   <ul class="text-white mb-3">
@@ -257,8 +263,8 @@
           </div>
         </div>
         <div aria-hidden="true" class="relative -z-10 mt-[-290px] max-h-screen min-h-[350px] overflow-hidden md:mt-[-270px]">
-          <img alt="globe shape back" loading="lazy" class="md:scale-x-150" src="./assets/globe-shape-back-2.c3181d7c.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent; opacity: 0.4" />
-          <!-- <img alt="globe shape front" loading="lazy" class="md:scale-x-150" src="./assets/globe-shape-front-2.a5dd1356.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent" /> -->
+          <img alt="globe shape back" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-back-2.c3181d7c.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent; opacity: 0.4" />
+          <!-- <img alt="globe shape front" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-front-2.a5dd1356.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent" /> -->
         </div>
       </section>
 
@@ -274,43 +280,43 @@
           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4">
             <div>
               <div class="rounded-full mb-4 border-2 border-[#9ccb3c]">
-                <img class="p-8" src="./assets/steps/Analysis.webp" alt="Analysis" />
+                <img class="p-8" src="./assets/img/steps/Analysis.webp" alt="Analysis" />
               </div>
               <p class="font-bold text-2xl text-white text-center">Analysis</p>
             </div>
             <div>
               <div class="rounded-full mb-4 border-2 border-[#5DBEA9]">
-                <img class="p-8" src="./assets/steps/Planning.webp" alt="Planning" />
+                <img class="p-8" src="./assets/img/steps/Planning.webp" alt="Planning" />
               </div>
               <p class="font-bold text-2xl text-white text-center">Planning</p>
             </div>
             <div>
               <div class="rounded-full mb-4 border-2 border-[#4CB6CF]">
-                <img class="p-8" src="./assets/steps/Design.webp" alt="Design" />
+                <img class="p-8" src="./assets/img/steps/Design.webp" alt="Design" />
               </div>
               <p class="font-bold text-2xl text-white text-center">Design</p>
             </div>
             <div>
               <div class="rounded-full mb-4 border-2 border-[#5C5FCE]">
-                <img class="p-8" src="./assets/steps/Development.webp" alt="Development" />
+                <img class="p-8" src="./assets/img/steps/Development.webp" alt="Development" />
               </div>
               <p class="font-bold text-2xl text-white text-center">Development</p>
             </div>
             <div>
               <div class="rounded-full mb-4 border-2 border-[#43BD6F]">
-                <img class="p-8" src="./assets/steps/Testing.webp" alt="Testing" />
+                <img class="p-8" src="./assets/img/steps/Testing.webp" alt="Testing" />
               </div>
               <p class="font-bold text-2xl text-white text-center">Testing</p>
             </div>
             <div>
               <div class="rounded-full mb-4 border-2 border-[#CE558B]">
-                <img class="p-8" src="./assets/steps/Deployment.webp" alt="Deployment" />
+                <img class="p-8" src="./assets/img/steps/Deployment.webp" alt="Deployment" />
               </div>
               <p class="font-bold text-2xl text-white text-center">Deployment</p>
             </div>
             <div>
               <div class="rounded-full mb-4 border-2 border-[#FEBE48]">
-                <img class="p-8" src="./assets/steps/Maintenance.webp" alt="Maintenance" />
+                <img class="p-8" src="./assets/img/steps/Maintenance.webp" alt="Maintenance" />
               </div>
               <p class="font-bold text-2xl text-white text-center">Maintenance</p>
             </div>
@@ -318,13 +324,13 @@
         </div>
 
         <!-- <div aria-hidden="true" class="relative -z-10 mt-[-290px] max-h-screen min-h-[350px] overflow-hidden md:mt-[-270px]">
-          <img alt="globe shape back" loading="lazy" class="md:scale-x-150" src="./assets/globe-shape-back-2.c3181d7c.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent; opacity: 0.4" />
-          <img alt="globe shape front" loading="lazy" class="md:scale-x-150" src="./assets/globe-shape-front-2.a5dd1356.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent" />
+          <img alt="globe shape back" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-back-2.c3181d7c.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent; opacity: 0.4" />
+          <img alt="globe shape front" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-front-2.a5dd1356.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent" />
         </div> -->
 
         <div aria-hidden="true" class="relative -z-10 max-h-screen min-h-[150px] rotate-180 overflow-hidden md:min-h-[-270px]">
-          <img alt="globe shape back" loading="lazy" class="scale-x-125 md:scale-100" src="./assets/ftyh.svg" style="position: absolute; height: 100%; width: 100%; inset: 10% 0px 0px; color: transparent; opacity: 0.4" />
-          <img alt="globe shape back" loading="lazy" class="scale-x-125 md:scale-100" src="./assets/globe-shape-front.2649f7d3.svg" style="position: absolute; height: 100%; width: 100%; inset: 10% 0px 0px; color: transparent" />
+          <img alt="globe shape back" loading="lazy" class="scale-x-125 md:scale-100" src="./assets/img/ftyh.svg" style="position: absolute; height: 100%; width: 100%; inset: 10% 0px 0px; color: transparent; opacity: 0.4" />
+          <img alt="globe shape back" loading="lazy" class="scale-x-125 md:scale-100" src="./assets/img/globe-shape-front.2649f7d3.svg" style="position: absolute; height: 100%; width: 100%; inset: 10% 0px 0px; color: transparent" />
         </div>
       </section>
 
@@ -355,56 +361,56 @@
                   </div>
 
                   <!-- Tab panels -->
-                  <div class="mx-auto">
+                  <div class="mx-auto min-h-[420px]">
                     <div class="relative flex flex-col">
                       <!-- PANEL 1 -->
                       <div id="panel-1" class="tab-panel">
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4">
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/JavaScript.webp" alt="JavaScript" />
+                              <img class="p-8" src="./assets/img/tecnology/JavaScript.webp" alt="JavaScript" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">JavaScript</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/react.webp" alt="React" />
+                              <img class="p-8" src="./assets/img/tecnology/react.webp" alt="React" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">React</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Angular.webp" alt="Angular.webp" />
+                              <img class="p-8" src="./assets/img/tecnology/Angular.webp" alt="Angular.webp" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Angular.webp</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Next.js.webp" alt="Next.js" />
+                              <img class="p-8" src="./assets/img/tecnology/nextjs.png" alt="Next.js" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Next.js</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Vue.js.webp" alt="Vue.js" />
+                              <img class="p-8" src="./assets/img/tecnology/Vue.js.webp" alt="Vue.js" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Vue.js</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Nuxt.js.webp" alt="Nuxt.js" />
+                              <img class="p-8" src="./assets/img/tecnology/Nuxt.js.webp" alt="Nuxt.js" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Nuxt.js</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/TailwindCSS.webp" alt="Tailwind CSS" />
+                              <img class="p-8" src="./assets/img/tecnology/TailwindCSS.webp" alt="Tailwind CSS" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Tailwind CSS</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/bootstrap.png" alt="bootstrap" />
+                              <img class="p-8" src="./assets/img/tecnology/bootstrap.png" alt="bootstrap" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Bootstrap</p>
                           </div>
@@ -415,55 +421,55 @@
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4">
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Java.webp" alt="Java" />
+                              <img class="p-8" src="./assets/img/tecnology/Java.webp" alt="Java" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Java</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/SpringBoot.webp" alt="SpringBoot" />
+                              <img class="p-8" src="./assets/img/tecnology/SpringBoot.webp" alt="SpringBoot" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">SpringBoot</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Python.webp" alt="Python" />
+                              <img class="p-8" src="./assets/img/tecnology/Python.webp" alt="Python" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Python</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Django.webp" alt="Django" />
+                              <img class="p-8" src="./assets/img/tecnology/Django.webp" alt="Django" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Django</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Php.webp" alt="Php" />
+                              <img class="p-8" src="./assets/img/tecnology/Php.webp" alt="Php" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Php</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Laravel.webp" alt="Laravel" />
+                              <img class="p-8" src="./assets/img/tecnology/Laravel.webp" alt="Laravel" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Laravel</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Node.webp" alt="Node.js" />
+                              <img class="p-8" src="./assets/img/tecnology/Node.webp" alt="Node.js" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Node.js</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Golang.webp" alt="Golang" />
+                              <img class="p-8" src="./assets/img/tecnology/Golang.webp" alt="Golang" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Golang</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/C++.webp" alt="C++" />
+                              <img class="p-8" src="./assets/img/tecnology/C++.webp" alt="C++" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">C++</p>
                           </div>
@@ -474,25 +480,25 @@
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4">
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Flutter.webp" alt="Flutter" />
+                              <img class="p-8" src="./assets/img/tecnology/Flutter.webp" alt="Flutter" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Flutter</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Swift.webp" alt="Swift" />
+                              <img class="p-8" src="./assets/img/tecnology/Swift.webp" alt="Swift" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Swift</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/react.webp" alt="react" />
+                              <img class="p-8" src="./assets/img/tecnology/react.webp" alt="react" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">react</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Kotlin.webp" alt="Kotlin" />
+                              <img class="p-8" src="./assets/img/tecnology/Kotlin.webp" alt="Kotlin" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Kotlin</p>
                           </div>
@@ -503,37 +509,37 @@
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4">
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Firebase.webp" alt="Firebase" />
+                              <img class="p-8" src="./assets/img/tecnology/Firebase.webp" alt="Firebase" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Firebase</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/PostgreSQL.webp" alt="PostgreSQL" />
+                              <img class="p-8" src="./assets/img/tecnology/PostgreSQL.webp" alt="PostgreSQL" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">PostgreSQL</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Oracle.webp" alt="Oracle" />
+                              <img class="p-8" src="./assets/img/tecnology/Oracle.webp" alt="Oracle" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Oracle</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/MySQL.webp" alt="MySQL" />
+                              <img class="p-8" src="./assets/img/tecnology/MySQL.webp" alt="MySQL" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">MySQL</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/MongoDB.webp" alt="MongoDB" />
+                              <img class="p-8" src="./assets/img/tecnology/MongoDB.webp" alt="MongoDB" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">MongoDB</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/MicrosoftSQL.webp" alt="MicrosoftSQL" />
+                              <img class="p-8" src="./assets/img/tecnology/MicrosoftSQL.webp" alt="MicrosoftSQL" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">MicrosoftSQL</p>
                           </div>
@@ -544,13 +550,13 @@
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4">
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Figma.webp" alt="Figma" />
+                              <img class="p-8" src="./assets/img/tecnology/Figma.webp" alt="Figma" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Figma</p>
                           </div>
                           <div>
                             <div class="rounded-md shadow-two mb-4">
-                              <img class="p-8" src="./assets/tecnology/Sketch.webp" alt="Sketch" />
+                              <img class="p-8" src="./assets/img/tecnology/Sketch.webp" alt="Sketch" />
                             </div>
                             <p class="font-bold text-2xl text-white text-center">Sketch</p>
                           </div>
@@ -565,12 +571,204 @@
           </div>
         </div>
         <div aria-hidden="true" class="relative -z-10 mt-[-290px] max-h-screen min-h-[350px] overflow-hidden md:mt-[-270px]">
-          <img alt="globe shape back" loading="lazy" class="md:scale-x-150" src="./assets/globe-shape-back-2.c3181d7c.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent; opacity: 0.4" />
-          <img alt="globe shape front" loading="lazy" class="md:scale-x-150" src="./assets/globe-shape-front-2.a5dd1356.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent" />
+          <img alt="globe shape back" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-back-2.c3181d7c.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent; opacity: 0.4" />
+          <img alt="globe shape front" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-front-2.a5dd1356.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent" />
         </div>
       </section>
+
+      <section class="pt-14 sm:pt-20 lg:pt-26">
+        <div class="container">
+          <div class="max-w-[882px] mx-auto mb-10 lg:mb-16">
+            <h2 class="mb-6 leading-none text-center text-2xl font-bold text-[32px] sm:text-[48px] lg:text-[64px] text-white">
+              Success Stories <br class="none lg:block" />
+              from Our Clients
+            </h2>
+          </div>
+          <div class="carousel owl-carousel client-carousel">
+            <div class="bg-gradient-to-r from-blue-500/5 to-purple-500/5 rounded-2xl p-6 border border-blue-500/10">
+              <div class="flex flex-col md:flex-row items-center gap-3 md:gap-5 lg:gap-8">
+                <img class="rounded-sm max-h-[300px] max-w-[300px]" src="./assets/img/1754902496719-866506667-Fuad.webp" alt="" />
+                <div class="px-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-12 mb-3" viewBox="0 0 90 93" fill="none" preserveAspectRatio="none">
+                    <path
+                      d="M0.113281 81.6665V60.7183C0.113281 54.77 1.23711 48.6924 3.48478 42.4855C5.73245 36.2787 8.69812 30.4274 12.3818 24.9317C16.0655 19.436 20.0613 14.8455 24.3693 11.1602L41.9761 21.9252C38.4797 27.6149 35.6077 33.5631 33.36 39.77C31.1748 45.9769 30.0822 52.895 30.0822 60.5243V81.6665H0.113281ZM47.4079 81.6665V60.7183C47.4079 54.77 48.5317 48.6924 50.7794 42.4855C53.0271 36.2787 55.9928 30.4274 59.6764 24.9317C63.3601 19.436 67.356 14.8455 71.664 11.1602L89.2707 21.9252C85.7743 27.6149 82.9023 33.5631 80.6546 39.77C78.4694 45.9769 77.3768 52.895 77.3768 60.5243V81.6665H47.4079Z"
+                      fill="#FABBC6"
+                    ></path>
+                  </svg>
+                  <p class="text-white text-xl mb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae corporis eius quis nesciunt illo tempora vel fugiat quae temporibus dolores?</p>
+                  <p class="fw-bold text-white text-2xl">Nabid Ahammed</p>
+                  <p class="fw-bold text-white text-xl">CEO (Loge asi .com)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div aria-hidden="true" class="relative -z-10 mt-[-290px] max-h-screen min-h-[350px] overflow-hidden md:mt-[-270px]">
+          <img alt="globe shape back" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-back-2.c3181d7c.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent; opacity: 0.4" />
+          <!-- <img alt="globe shape front" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-front-2.a5dd1356.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent" /> -->
+        </div>
+      </section>
+
+      <section class="pt-14 sm:pt-20 lg:pt-26">
+        <div class="container">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start max-w-7xl mx-auto">
+            <div class="space-y-8">
+              <div class="space-y-6">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl fw-bold text-white">Where Vision Meets Next-Generation Technology</h2>
+                <p class="text-lg max-w-xl text-white">Innovation doesn’t wait — and neither should you. Work with us to create powerful digital experiences, scalable systems, and transformative solutions built for the future.</p>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <button class="group relative p-6 rounded-2xl bg-gradient-to-br from-zinc-900/90 to-zinc-800/90 backdrop-blur-sm border border-zinc-700/50 hover:border-blue-500/50 transition-all duration-300 overflow-hidden" tabindex="0" style="opacity: 1; transform: none">
+                  <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div class="relative flex items-start justify-between">
+                    <div class="flex flex-col items-start gap-3">
+                      <div class="p-3 rounded-xl bg-blue-500/10 group-hover:bg-blue-500/20 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone w-6 h-6 text-blue-400"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                      </div>
+                      <h3 class="text-xl text-white">Book A Call</h3>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-5 h-5 text-zinc-400 group-hover:text-blue-400 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300">
+                      <path d="M7 7h10v10"></path>
+                      <path d="M7 17 17 7"></path>
+                    </svg>
+                  </div>
+                </button>
+                <button class="group relative p-6 rounded-2xl bg-gradient-to-br from-zinc-900/90 to-zinc-800/90 backdrop-blur-sm border border-zinc-700/50 hover:border-purple-500/50 transition-all duration-300 overflow-hidden" tabindex="0" style="opacity: 1; transform: none">
+                  <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div class="relative flex items-start justify-between">
+                    <div class="flex flex-col items-start gap-3">
+                      <div class="p-3 rounded-xl bg-purple-500/10 group-hover:bg-purple-500/20 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-6 h-6 text-purple-400">
+                          <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-xl text-white">Send Email</h3>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-5 h-5 text-zinc-400 group-hover:text-purple-400 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300">
+                      <path d="M7 7h10v10"></path>
+                      <path d="M7 17 17 7"></path>
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="relative">
+              <form class="space-y-6">
+                <input type="text" placeholder="Your Name*" required="" class="w-full px-6 py-4 rounded-xl bg-zinc-900/50 border border-zinc-700/50 text-foreground placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-transparent transition-all duration-300" name="name" value="" />
+                <input type="text" placeholder="Company Name (Optional)" class="w-full px-6 py-4 rounded-xl bg-zinc-900/50 border border-zinc-700/50 text-foreground placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-transparent transition-all duration-300" name="companyName" value="" />
+                <input type="tel" placeholder="Phone Number*" required="" class="w-full px-6 py-4 rounded-xl bg-zinc-900/50 border border-zinc-700/50 text-foreground placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-transparent transition-all duration-300" name="phone" value="" />
+                <input type="email" placeholder="Email Address*" required="" class="w-full px-6 py-4 rounded-xl bg-zinc-900/50 border border-zinc-700/50 text-foreground placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-transparent transition-all duration-300" name="email" value="" />
+                <textarea name="message" placeholder="Your Message*" required="" rows="5" class="w-full px-6 py-4 rounded-xl bg-zinc-900/50 border border-zinc-700/50 text-foreground placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-transparent transition-all duration-300 resize-none"></textarea>
+                <div class="space-y-4">
+                  <button type="submit" class="group w-full px-8 py-4 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 text-white transition-all duration-300 hover:shadow-lg hover:shadow-blue-600/30 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2" tabindex="0">
+                    <span>Submit</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300">
+                      <path d="M7 7h10v10"></path>
+                      <path d="M7 17 17 7"></path>
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div aria-hidden="true" class="relative -z-10 mt-[-290px] max-h-screen min-h-[350px] overflow-hidden md:mt-[-270px]">
+          <img alt="globe shape back" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-back-2.c3181d7c.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent; opacity: 0.4" />
+          <!-- <img alt="globe shape front" loading="lazy" class="md:scale-x-150" src="./assets/img/globe-shape-front-2.a5dd1356.svg" style="position: absolute; height: 100%; width: 100%; inset: 0% 0px 0px; color: transparent" /> -->
+        </div>
+      </section>
+
+      <footer class="bg-[#151118] text-white">
+        <div class="container py-16">
+          <div class="grid grid-cols-1 gap-12 lg:grid-cols-12">
+            <div class="lg:col-span-5">
+              <div class="bg-gradient-to-r from-blue-500/5 to-purple-500/5 rounded-2xl lg:px-8 p-5 border border-blue-500/10">
+                <h2 class="text-3xl font-bold mb-2 text-balance">For expert Support?</h2>
+                <p class="text-white text-lg mb-3">Get Personalized Help From Our team</p>
+                <form class="space-y-4">
+                  <input
+                    data-slot="input"
+                    class="file:text-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 w-full min-w-0 rounded-md border px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-transparent border-gray-600 text-white placeholder:text-gray-400 h-12"
+                    placeholder="E-mail"
+                    type="email"
+                  />
+                  <button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium bg-gradient-to-r from-blue-600 to-purple-600 text-white transition-all duration-300 hover:shadow-lg hover:shadow-blue-600/30 disabled:opacity-50 disabled:cursor-not-allowed px-8 h-12" type="submit">Subscribe Now</button>
+                </form>
+              </div>
+            </div>
+            <div class="lg:col-span-7">
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                <div>
+                  <h3 class="text-lg font-semibold uppercase text-[#8c2afa] mb-4">Explore</h3>
+                  <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Product</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">About</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Services</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold uppercase text-[#8c2afa] mb-4">Support</h3>
+                  <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Insights</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Career</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold uppercase text-[#8c2afa] mb-4">Address</h3>
+                  <address class="not-italic space-y-3 text-gray-300 text-sm">
+                    <p>Plot #1337-1338, khilkhetr, Dhaka</p>
+                    <p>+8801354784632</p>
+                    <p><a href="mailto:info@onnoit.com" class="hover:text-white transition-colors">info@onnoit.com</a></p>
+                  </address>
+                </div>
+              </div>
+              <div class="pt-12 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div class="flex gap-4">
+                  <a href="#" class="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center hover:border-gray-400 transition-colors" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook w-5 h-5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                  </a>
+                  <a href="#" class="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center hover:border-gray-400 transition-colors" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin w-5 h-5">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect width="4" height="12" x="2" y="9"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </a>
+                  <a href="#" class="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center hover:border-gray-400 transition-colors" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram w-5 h-5">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                    </svg>
+                  </a>
+                </div>
+                <div class="text-sm text-gray-400 text-center sm:text-right">
+                  <p>©2025 — OnnoIT.</p>
+                  <p>All Rights Reserved</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
 
-    <script src="./custom.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/plugin/owl-carousel/owl-carousel.js"></script>
+    <script>
+      $(".client-carousel").owlCarousel({
+        loop: true,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        items: 1,
+        margin: 30,
+      });
+    </script>
   </body>
 </html>
